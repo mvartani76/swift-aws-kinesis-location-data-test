@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'aws-kinesis-location-data-test' do
+    pod 'AWSS3', '~> 2.6.13'
+    pod 'AWSCognito', '~> 2.6.13'
+    pod 'AWSKinesis', '~> 2.6.13'
+end
