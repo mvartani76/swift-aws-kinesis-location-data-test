@@ -10,7 +10,7 @@ import Foundation
 import AWSCore
 
 //WARNING: To run this sample correctly, you must set the following constants.
-let AwsRegion = AWSRegionType.USWest2
+let AwsRegion = "Your AWS Region"
 let CognitoIdentityPoolId = "Your Cognito Federated Identity ID"
 let LocationManagerDistanceFilter = 5.0
 let DataCountThreshold = 20
