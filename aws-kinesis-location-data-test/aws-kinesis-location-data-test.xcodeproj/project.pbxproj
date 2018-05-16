@@ -13,7 +13,6 @@
 		22000A9A2092369800000834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22000A992092369800000834 /* Assets.xcassets */; };
 		22000A9D2092369800000834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22000A9B2092369800000834 /* LaunchScreen.storyboard */; };
 		22000AA520924FD200000834 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22000AA420924FD200000834 /* Constants.swift */; };
-		6D2E6A3FE8291940178998E9 /* Pods_aws_kinesis_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362A34AC13D9A8B117305E75 /* Pods_aws_kinesis_test.framework */; };
 		F4079B4663E6C2FEF88DA5F5 /* Pods_aws_kinesis_location_data_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F3D784EAD016F117937F01 /* Pods_aws_kinesis_location_data_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D2E6A3FE8291940178998E9 /* Pods_aws_kinesis_test.framework in Frameworks */,
 				F4079B4663E6C2FEF88DA5F5 /* Pods_aws_kinesis_location_data_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
