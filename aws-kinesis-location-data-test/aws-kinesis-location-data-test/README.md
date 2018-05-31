@@ -43,7 +43,7 @@ if dataCount > DataCountThreshold {
      fireHoseRecorder.submitAllRecords()
      dataCount = 0
 }
-
+```
 ## Add Location/Privacy Requirements and AWS Settings in info.plist
 
 ### Location/Privacy Requirements
