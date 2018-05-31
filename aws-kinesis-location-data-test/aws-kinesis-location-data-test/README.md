@@ -108,3 +108,12 @@ if dataCount > DataCountThreshold {
 		</dict>
 	</dict>
 ```
+## Configure settings in Constants.swift
+```javascript
+//WARNING: To run this sample correctly, you must set the following constants.
+let AwsRegion = "Your AWS Region"
+let CognitoIdentityPoolId = "Your Cognito Federated Identity ID"
+let LocationManagerDistanceFilter = 5.0
+let DataCountThreshold = 20
+let MyStreamName = "Your Kinesis Firehose Stream Name"
+```
