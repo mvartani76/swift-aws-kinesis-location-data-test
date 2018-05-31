@@ -20,13 +20,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
                 
         return true
     }
-
+```
 ## Use FirehoseRecorder in ViewController.swift
 
 Initialize firehose recorder under locationManager
 ```javascript
 let fireHoseRecorder = AWSFirehoseRecorder.default()
-
+```
 Save the Kinesis Firehose Records Locally
 ```javascript
 // Save the kinesis firehose records locally
@@ -36,7 +36,7 @@ Save the Kinesis Firehose Records Locally
  fireHoseRecorder.saveRecord(",".data(using: String.Encoding.utf8), streamName: MyStreamName)
  fireHoseRecorder.saveRecord(lonLabel.text?.data(using: String.Encoding.utf8), streamName: MyStreamName)
  fireHoseRecorder.saveRecord("\n".data(using: String.Encoding.utf8), streamName: MyStreamName)
-
+```
 Submit all records after DataCountThreshold times collecting data
 ```javascript
 if dataCount > DataCountThreshold {
