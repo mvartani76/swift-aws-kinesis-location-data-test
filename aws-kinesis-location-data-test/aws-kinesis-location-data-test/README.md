@@ -92,9 +92,9 @@ if dataCount > DataCountThreshold {
 				<key>Default</key>
 				<dict>
 					<key>PoolId</key>
-					<string>us-east-1:faa02731-42b5-4026-8113-469f3955c5cb</string>
+					<string>REGION:ARN</string>
 					<key>Region</key>
-					<string>us-east-1</string>
+					<string>REGION</string>
 				</dict>
 			</dict>
 		</dict>
@@ -103,7 +103,7 @@ if dataCount > DataCountThreshold {
 			<key>Default</key>
 			<dict>
 				<key>Region</key>
-				<string>us-east-1</string>
+				<string>REGION</string>
 			</dict>
 		</dict>
 	</dict>
