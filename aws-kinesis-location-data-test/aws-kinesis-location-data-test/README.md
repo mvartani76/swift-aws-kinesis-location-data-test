@@ -54,7 +54,7 @@ if dataCount > DataCountThreshold {
 <string></string>
 <key>NSLocationWhenInUseUsageDescription</key>
 <string></string>
-
+```
 ### AWS Settings
 ```javascript
         <key>NSAppTransportSecurity</key>
